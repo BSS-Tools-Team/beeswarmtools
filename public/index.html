@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="mRx0xrWeuwrgUFE1KFMWXPUrBij8i3zyY9n0uX7o92A" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>BSS Tools</title>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="467bc57c-e7b0-4358-abd8-3a527f0b57ad"></script>
+    
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header styles (Thinner border) */
+        .header {
+            height: 60px;
+            background-color: #ffffff;
+            color: #555;
+            font-size: 10px;
+            text-align: center;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .header a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .header a:hover {
+            color: #f8b400;
+            transform: scale(1.1);
+        }
+
+        /* Footer styles (Thinner border) */
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            border-top: 1px solid #444;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Make the main footer message slightly bigger */
+        footer p:first-of-type {
+            font-size: 18px;  /* Increased size */
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        /* Social icon container */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Social icon styles */
+        .social-icon {
+            margin: 0 10px;
+            padding: 6px;
+            background-color: #333;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            display: inline-block;
+            width: 45px;
+            height: 45px;
+            box-sizing: border-box;
+        }
+
+        .social-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .social-icon:hover {
+            background-color: #f8b400;
+            transform: scale(1.1);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .header {
+                font-size: 14px;
+                height: 50px;
+                padding: 10px;
+            }
+
+            footer p:first-of-type {
+                font-size: 16px;
+            }
+
+            footer p {
+                font-size: 12px;
+            }
+
+            .social-icon {
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                height: 45px;
+                padding: 8px;
+            }
+
+            footer p:first-of-type {
+                font-size: 15px;
+            }
+
+            .social-icon {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <p>
+            <a href="https://beeswarmtools.netlify.app/">Home</a>
+            <a href="https://www.roblox.com/games/15303115945/a#!/store" target="_blank">Donate Me</a>
+            <a href="https://test-beeswarmtools.netlify.app/">Developer Mode</a>
+        </p>
+    </div>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <footer>
+        <p>Follow Me on My Social Media Platforms!</p>
+        <p>Connect with me on YouTube, Reddit, Discord, and more!</p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/channel/UCjJ7syWzx0YE4emU-xrvMLQ" target="_blank" class="social-icon">
+                <img src="https://logolook.net/wp-content/uploads/2021/06/Symbol-Youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.roblox.com/users/2880937491/profile" target="_blank" class="social-icon">
+                <img src="https://ik.imagekit.io/lzrsmb/Roblox.png?updatedAt=1737527081877" alt="Roblox">
+            </a>
+            <a href="https://bee-swarm-simulator.fandom.com/wiki/User:MarioTheMythical" target="_blank" class="social-icon">
+                <img src="https://bee-swarm-simulator.fandom.com/favicon.ico" alt="Wiki Fandom">
+            </a>
+            <a href="https://www.reddit.com/user/ItsMarioTheMythical/" target="_blank" class="social-icon">
+                <img src="https://www.reddit.com/favicon.ico" alt="Reddit">
+            </a>
+            <a href="https://discord.gg/NQZ7uuwt4g" target="_blank" class="social-icon">
+                <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" alt="Discord">
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
