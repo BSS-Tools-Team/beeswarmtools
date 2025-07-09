@@ -1,0 +1,13 @@
+Bugs:
+  1. Putting a beequip on an empty hive slot will cause the load function to break
+  2. Newer beequips (Lei onwards) will not be able to save
+  3. Bond Calculator seems to display the wrong values for level 12, 13, and 14 when bond bonus is 7% (For 40+ Bees)
+  4. Header does not change color in darkmode
+
+To Do:
+  1. Add more sub recipes
+     - Recipe for dark scythe requires super smoothies, but the recipe calculator only shows the materials to craft the super smoothies and not the materials needed to craft the things needed for it (e.g. Star Jelly, Purple Potions)
+  2. Trading Screen Maker
+     - Something Like BSSTrades.com
+  3. Website doesn't know math
+     - Fire mask requires 50 extracts and 500 strawberries. If user has no red extracts, only 2500 strawberries, it would think that there are enough strawberries to craft both the red extracts and have enough remaining strawberries for the other requirement
